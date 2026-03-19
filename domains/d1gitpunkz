@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D1gitPunkz | System Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap');
+        body { font-family: 'Fira Code', monospace; background-color: #0b0e14; color: #a9b1d6; }
+        .neon-text { color: #74c7ec; text-shadow: 0 0 5px rgba(116, 199, 236, 0.5); }
+        .border-cachy { border-color: #74c7ec; }
+        .bg-card { background-color: #1a1b26; }
+    </style>
+</head>
+<body class="p-4 md:p-12">
+
+    <header class="max-w-4xl mx-auto mb-12">
+        <h1 class="text-4xl font-bold neon-text mb-2">D1gitPunkz</h1>
+        <p class="text-lg opacity-80">System Architect // CachyOS Enthusiast // Low-Level Specialist</p>
+        <div class="mt-4 flex gap-4 text-sm">
+            <span class="bg-card px-3 py-1 rounded border border-cachy/30">#ArchLinux</span>
+            <span class="bg-card px-3 py-1 rounded border border-cachy/30">#KernelOptimization</span>
+            <span class="bg-card px-3 py-1 rounded border border-cachy/30">#LuaExpert</span>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto space-y-12">
+        
+        <section class="bg-card p-6 rounded-lg border-l-4 border-cachy shadow-xl">
+            <h2 class="text-xl font-bold mb-4 text-white">-- profile.lua</h2>
+            <pre class="text-sm overflow-x-auto text-blue-300">
+<code>local d1gitpunkz = {
+    status = "Optimizing Kernel",
+    os = "CachyOS",
+    hardware = "ThinkPad L450 (Maxed)",
+    languages = {
+        "C", "C++", "Rust", "Zig", "Go", "Assembly", 
+        "Lua", "Python", "Ruby", "Perl", "Haskell", 
+        "Elixir", "Clojure", "TypeScript", "JS", 
+        "SQL", "Bash", "Zsh", "Julia"
+    },
+    capabilities = "Offline Resilience & Emergency Data",
+}
+
+print("Initiating system overhaul...")</code></pre>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                <span class="text-cachy">></span> Language Proficiencies (19+)
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-card p-4 rounded border border-white/5 hover:border-cachy transition-all">
+                    <h3 class="font-bold text-white">Systems</h3>
+                    <p class="text-xs opacity-70">C, C++, Rust, Zig, Go, x86_64 ASM</p>
+                </div>
+                <div class="bg-card p-4 rounded border border-white/5 hover:border-cachy transition-all">
+                    <h3 class="font-bold text-white">Scripting</h3>
+                    <p class="text-xs opacity-70">Lua, Python, Ruby, Perl, Bash</p>
+                </div>
+                <div class="bg-card p-4 rounded border border-white/5 hover:border-cachy transition-all">
+                    <h3 class="font-bold text-white">Functional</h3>
+                    <p class="text-xs opacity-70">Haskell, Elixir, Clojure, Julia</p>
+                </div>
+                <div class="bg-card p-4 rounded border border-white/5 hover:border-cachy transition-all">
+                    <h3 class="font-bold text-white">Frontend</h3>
+                    <p class="text-xs opacity-70">TS, JS, SQL, Zsh, Fish</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="space-y-6">
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                <span class="text-cachy">></span> Core Operations
+            </h2>
+            
+            <div class="group">
+                <h3 class="text-white font-bold group-hover:text-cachy transition-colors">Offline Geo-Data Infrastructure</h3>
+                <p class="text-sm">Engineered a multi-million square kilometer offline mapping system using Kiwix and compressed vector tiles. Zero-network dependency.</p>
+            </div>
+
+            <div class="group">
+                <h3 class="text-white font-bold group-hover:text-cachy transition-colors">ThinkPad L450 Core Recovery</h3>
+                <p class="text-sm">Hardware-level troubleshooting and custom OS deployment to bypass BIOS/RAM loops and maximize legacy silicon performance.</p>
+            </div>
+
+            <div class="group">
+                <h3 class="text-white font-bold group-hover:text-cachy transition-colors">Mechanical Optimization Scripts</h3>
+                <p class="text-sm">High-speed Lua logic for real-time mobile rank progression and hardware-accelerated emulation.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="max-w-4xl mx-auto mt-20 pt-8 border-t border-white/10 text-center text-xs opacity-50">
+        &copy; 2026 D1gitPunkz // Compiled on CachyOS
+    </footer>
+
+</body>
+</html>
